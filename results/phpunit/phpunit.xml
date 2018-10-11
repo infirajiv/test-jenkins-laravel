@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="1" assertions="1" failures="0" errors="0" time="10.722598">
-    <testsuite name="Unit" tests="1" assertions="1" failures="0" errors="0" time="10.722598">
-      <testsuite name="Tests\Unit\ExampleTest" file="C:\xampp\htdocs\test-jenkins-laravel\tests\Unit\ExampleTest.php" tests="1" assertions="1" failures="0" errors="0" time="10.722598">
-        <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" file="C:\xampp\htdocs\test-jenkins-laravel\tests\Unit\ExampleTest.php" line="16" assertions="1" time="10.722598"/>
+  <testsuite name="" tests="1" assertions="1" failures="1" errors="0" time="0.155256">
+    <testsuite name="Unit" tests="1" assertions="1" failures="1" errors="0" time="0.155256">
+      <testsuite name="Tests\Unit\ExampleTest" file="C:\xampp\htdocs\test-jenkins-laravel\tests\Unit\ExampleTest.php" tests="1" assertions="1" failures="1" errors="0" time="0.155256">
+        <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" file="C:\xampp\htdocs\test-jenkins-laravel\tests\Unit\ExampleTest.php" line="16" assertions="1" time="0.155256">
+          <failure type="PHPUnit_Framework_ExpectationFailedException">Tests\Unit\ExampleTest::testBasicTest&#13;
+Failed asserting that false is true.
+&#13;
+C:\xampp\htdocs\test-jenkins-laravel\tests\Unit\ExampleTest.php:19
+</failure>
+        </testcase>
       </testsuite>
     </testsuite>
   </testsuite>
