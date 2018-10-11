@@ -15,6 +15,11 @@ class ExampleTest extends TestCase
      */
     public function testBasicTest()
     {
+<<<<<<< HEAD
         $this->assertTrue(false);
+=======
+        // edited file
+        $this->assertTrue(true);
+>>>>>>> 7f41dfbcfebe71900edc0e8e979a14baec952508
     }
 }
